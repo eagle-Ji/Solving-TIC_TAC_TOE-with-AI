@@ -1,0 +1,4 @@
+The model parameters play a vital role in defining the learning progress of a neural network. Two experiments were carried out to get obtain more accuracy. Fist a neural network with less dense layers and less number of neurons in dense layer. Such model gave low accuracy as there were not enough trainable parameters that can learn the game strategy properly. By trainable parameters more accuracy was obtained. Following image contains the model structure. 
+
+For ANN based model simple dense layers with an appropriate input shape was used. And output layer was SoftMax activation. Further parameters are clear in the code.
+In CNN 2D networks were not suitable for experiment. Input shape miss match with the convolutional filters is considered as the cause of trouble while experimenting with the CNN. However, by using 1D CNN model has achieved less accuracy because CNN require more training time and features.
